@@ -182,9 +182,7 @@ This pull request has been closed because a request for more information has not
 
 Avoid using this if possible, more details are better.
 
-This issue has been closed because it doesn't conform to the guidelines,
- please see https://github.com/gitlabhq/gitlabhq/blob/master/CONTRIBUTING.md#closing-policy-for-issues-and-pull-requests
- for more information.
+This issue has been closed because it doesn't conform to the guidelines, please see https://github.com/gitlabhq/gitlabhq/blob/master/CONTRIBUTING.md#closing-policy-for-issues-and-pull-requests for more information.
 
 #### Closing a pull request
 
