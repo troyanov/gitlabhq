@@ -9,7 +9,7 @@ class GraphsController < ProjectResourceController
       format.html
       format.js do
         @repo = @project.repository
-        @stats = Gitlab::Git::GitStats.new(@repo.raw, @repo.root_ref)
+        @stats = Gitlab::Git::GitStats.new(@repo.raw, @repo.root_ref, params[:id])
         @log = @stats.parsed_log.to_json
       end
     end
